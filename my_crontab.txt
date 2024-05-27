@@ -1,0 +1,2 @@
+@reboot /home/mangeoire/Documents/programmes/lancer-script.sh
+0 12 */2 * * /usr/bin/python3 /home/mangeoire/Documents/programmes/delete_old_files.py
