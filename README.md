@@ -9,3 +9,10 @@ explorer de nouvelles directions.
 L’objectif de ce projet est donc de réaliser une mangeoire connectée en utilisant le matériel disponible au
 FabLab de l’école, équipée d’un distributeur automatique de graine ainsi que d’une caméra permettant le
 visionnage d’un flux vidéo sur l’intranet.
+
+Dans le cadre de ce projet, nous utilisons une carte Raspberry Pi 3b+, ainsi que les bibliothèques suivantes :
+- Numpy
+- Tensorflow
+- RPi.GPIO
+- Libcamera
+- Picamera2
