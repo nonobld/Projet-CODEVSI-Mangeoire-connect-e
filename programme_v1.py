@@ -37,7 +37,7 @@ try :
         
         distance = measure_distance()
         
-        if distance <= 100 :
+        if distance <= 15 :
             timestamp = time.strftime("%Y%m%d%H%M%S")
             photo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Photo", "photo_" + timestamp)
             call(["libcamera-still -o "+photo_path+".jpg -t 100"], shell = True)
