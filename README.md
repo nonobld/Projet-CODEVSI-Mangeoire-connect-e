@@ -16,3 +16,10 @@ Dans le cadre de ce projet, nous utilisons une carte Raspberry Pi 3b+, ainsi que
 - RPi.GPIO
 - Libcamera
 - Picamera2
+
+
+Pour récupérer l'adresse IP de la carte raspberry, on utilise la commande suivante dans un terminal : hostname -I
+Pour récupérer les fichier en local, il faut utiliser la commande suivante :
+scp -r mangeoire@<adresse_IP_de_la_Raspberry_Pi>:/home/mangeoire/Documents/programmes/Photo <chemin_de_destination_local>
+Le mot de passe est alors demandé. Il suffit de le rentrer dans le terminal pour activer le transfert
+
